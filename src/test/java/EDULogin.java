@@ -17,7 +17,7 @@ public class EDULogin {
     @BeforeClass
     public void beforeClass() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\nikita.dhokey\\Downloads\\chromedriver_win32 (3)\\chromedriver.exe");
-        driver=new ChromeDriver();
+        driver = new ChromeDriver();
         driver.get("http://10.82.180.36:8080/EDUBank/tellerLogin");
     }
     @AfterClass
